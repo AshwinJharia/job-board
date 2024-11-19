@@ -113,11 +113,3 @@ job-board/ ├── backend/ │ ├── public/ │ │ ├── profile/ �
 ## Contributing
 
 If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any questions or feedback, please contact [your-email@example.com](mailto:your-email@example.com).
