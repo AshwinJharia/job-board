@@ -44,8 +44,8 @@ This project is a job board application built with a React frontend and a Node.j
 3. Create a `.env` file for environment variables (optional, e.g., for MongoDB connection string):
 
     ```env
-    MONGODB_URI=mongodb://localhost:27017/job-board
-    PORT=3001
+    MONGODB_URI=your-url
+    PORT=your-port
     ```
 
 4. Start the backend server:
@@ -100,7 +100,25 @@ This project is a job board application built with a React frontend and a Node.j
 
 ## Folder Structure
 
-job-board/ ├── backend/ │ ├── public/ │ │ ├── profile/ │ │ └── resume/ │ ├── server.js │ └── models/ │ └── job.js └── frontend/ ├── src/ ├── public/ └── package.json
+```bash
+job-board/
+├── backend/
+│   ├── models/
+│   │   └── job.js         # Mongoose model for job listings
+│   ├── public/
+│   │   ├── profile/       # Profile images or documents
+│   │   └── resume/        # Resumes or documents
+│   ├── server.js          # Main server file
+│   └── .env               # Environment variables (optional)
+└── frontend/
+    ├── public/
+    └── src/
+        ├── components/   # React components
+        ├── App.js         # Main React component
+        ├── App.css        # Styles for React components
+        └── index.js       # Entry point for React application
+    └── package.json       # Frontend dependencies and scripts
+```
 
 
 ## Usage
