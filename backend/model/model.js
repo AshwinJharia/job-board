@@ -12,7 +12,7 @@ const schema = new mongoose.Schema({
     location: String,
     description: String,
     salary: {
-        type: Number,
+        type: String,
         required: true
     }
 });

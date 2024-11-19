@@ -98,7 +98,7 @@ const PostJob = () => {
                 <div>
                     <label>Salary:</label>
                     <input
-                        type="number"
+                        type="text"
                         placeholder="salary..."
                         value={salary}
                         onChange={(e) => setSalary(e.target.value)} />

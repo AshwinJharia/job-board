@@ -57,7 +57,7 @@ const Home = () => {
                 <nav>
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="/postjob">Post_Job</a></li>
+                        <li><a href="/postjob">Post Job</a></li>
                         <li><input
                             type="text"
                             placeholder="Search your dream company..."
@@ -96,7 +96,7 @@ const Home = () => {
                                 <p className="loaction">
                                     Location: {job.location}
                                 </p>
-                                <p>Description:{job.description}</p>
+                                <p>Description: {job.description}</p>
                                 <p className="salary">
                                     Salary: {job.salary}
                                 </p>
